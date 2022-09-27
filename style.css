@@ -1,0 +1,145 @@
+/* ########### base css start ########### */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 570px;
+    margin: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* ########### End of base css ########### */
+
+/* ########### main css start ########### */
+.text-box {
+    padding: 20px 30px;
+}
+
+.top-description {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.event-item a {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    color: #91b8c9;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: pre-line;
+}
+
+.event-item a:hover {
+    color: #168fc3;
+}
+
+.event-item h4 {
+    font-size: 2rem;
+    color: #000;
+    font-weight: 400;
+}
+
+.event-item p {
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.gallary-img {
+    position: relative;
+    display: block;
+}
+
+.gallary-img img {
+    vertical-align: middle;
+}
+
+.gallary-img p {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    background-color: rgba(138, 183, 200, 0.5);
+    color: #fff;
+    padding: 12px;
+}
+
+/* ########### End of main css ########### */
+
+/* ########### footer css start ########### */
+.footer a {
+    display: block;
+}
+
+.footer .discover {
+    background-color: rgba(138, 183, 200, 0.5);
+    color: #fff;
+    padding: 12px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 40px 0 30px 0;
+    position: relative;
+}
+
+.footer .discover .blue-bg {
+    position: absolute;
+    background-color: #13216a;
+    width: 250px;
+    height: calc(100% + 20px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.footer address {
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.footer .contact-title {
+    font-weight: 600;
+    color: #13216a;
+    text-transform: uppercase;
+    padding: 30px 15px 15px 15px;
+}
+
+.footer address a,
+.footer address p {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.footer address a:hover {
+    text-decoration: underline;
+}
+
+.footer address .phone {
+    color: #13216a;
+}
+
+/* ########### End of footer css ########### */
