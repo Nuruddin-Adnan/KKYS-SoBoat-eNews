@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKYS SoBoat.eNews</title>
+    <style>
+        /* ########### base css start ########### */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: 570px;
+            margin: auto;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            vertical-align: middle;
+        }
+
+        /* ########### End of base css ########### */
+
+        /* ########### main css start ########### */
+        .text-box {
+            padding: 20px 30px;
+        }
+
+        .top-description {
+            font-size: 1.5rem;
+            color: #000;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .event-item a {
+            text-transform: uppercase;
+            font-size: 1.75rem;
+            color: #91b8c9;
+            font-weight: 600;
+            text-decoration: none;
+            white-space: pre-line;
+        }
+
+        .event-item a:hover {
+            color: #168fc3;
+        }
+
+        .event-item h4 {
+            font-size: 2rem;
+            color: #000;
+            font-weight: 400;
+        }
+
+        .event-item p {
+            font-size: 1.25rem;
+            color: #000;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+
+        .gallary-img {
+            position: relative;
+            display: block;
+        }
+
+        .gallary-img img {
+            vertical-align: middle;
+        }
+
+        .gallary-img p {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            text-align: left;
+            background-color: rgba(138, 183, 200, 0.5);
+            color: #fff;
+            padding: 12px;
+        }
+
+        /* ########### End of main css ########### */
+
+        /* ########### footer css start ########### */
+        .footer a {
+            display: block;
+        }
+
+        .footer .discover {
+            background-color: rgba(138, 183, 200, 0.5);
+            color: #fff;
+            padding: 12px;
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-decoration: none;
+            margin: 40px 0 30px 0;
+            position: relative;
+        }
+
+        .footer .discover .blue-bg {
+            position: absolute;
+            background-color: #13216a;
+            width: 250px;
+            height: calc(100% + 20px);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .footer address {
+            font-style: normal;
+        }
+
+        .footer .contact-title {
+            font-weight: 600;
+            color: #13216a;
+            text-transform: uppercase;
+            padding: 15px;
+        }
+
+        .footer address a,
+        .footer address p {
+            font-size: 1.25rem;
+            text-decoration: none;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+        .footer address a:hover {
+            text-decoration: underline;
+        }
+
+        .footer address .phone {
+            color: #13216a;
+        }
+
+        /* ########### End of footer css ########### */
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <img src="image/header-banner.png" alt="header image" class="w-100">
+    </header>
+    <main class="container">
+        <div class="text-box">
+            <p class="top-description">Join us this fall at the
+                Annapolis Power Boat Show and
+                Ft. Lauderdale International
+                Boat Show. Our veteran sales
+                team is looking forward to
+                showing you why we’re confident
+                we build some of the best long-
+                distance trawlers and
+                performance cruisers
+                available today.</p>
+
+            <div class="event-item">
+                <a href="#">Annapolis
+                    Power Boat Show</a>
+                <h4>Oct. 6-9</h4>
+                <p>On Display: Krogen 58 & Summit 54</p>
+            </div>
+            <div class="event-item">
+                <a href="#">Ft. Lauderdale
+                    International Boat Show</a>
+                <h4>Oct. 26-30</h4>
+                <p>On Display: Krogen 52 & Summit 54</p>
+            </div>
+        </div>
+        <div class="gallary-img">
+            <img src="image/Krogen-52.png" alt="image" class="w-100">
+            <p>Krogen 58</p>
+        </div>
+        <a href="#" class="gallary-img">
+            <img src="image/Krogen-58.png" alt="image" class="w-100">
+            <p>Krogen 52</p>
+        </a>
+        <div class="gallary-img">
+            <img src="image/Summit-54.png" alt="image" class="w-100">
+            <p>Summit 54 <strong>AVAILABLE FOR IMMEDIATE DELIVERY</strong></p>
+        </div>
+    </main>
+
+    <footer class="footer container">
+        <a href="#" class="discover"> Discover More <span class="blue-bg"></span> </a>
+        <img src="image/Logo.png" alt="logo" class="img-fluid">
+        <address>
+            <h3 class="contact-title">Contact info</h3>
+            <a href="#">www.kadeykrogen.com</a>
+            <a href="#">www.summitmotoryachts.com</a>
+            <p class="phone">772-286-0171</p>
+            <p>yourcrew@kadeykrogen.com</p>
+        </address>
+    </footer>
+</body>
+
+</html>
